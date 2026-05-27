@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Martin Smerling — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">MS</div>
+  <div class="nav-links">
+    <a href="#taidot">Taidot</a>
+    <a href="#projektit">Projektit</a>
+    <a href="#tietoa">Tietoa</a>
+    <a href="#kontakti">Kontakti</a>
+    <a href="index.en.html" class="lang-switch">EN</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-label">// IT-opiskelija</div>
+  <h1 class="hero-title">
+    <span class="line1">Martin</span>
+    <span class="line2">Smerling</span>
+    <span class="line3">PORTFOLIO</span>
+  </h1>
+  <div class="hero-sub">
+    <p class="hero-desc">Rakennan toimivia ratkaisuja koodilla. Kiinnostunut full-stack-kehityksestä, nettisivujen tekemisistä ja avoimen lähdekoodin projekteista.</p>
+    <a class="hero-cta" href="#projektit">→ Katso projektit</a>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>scroll</span>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- TAIDOT -->
+<section id="taidot">
+  <div class="section-header">
+    <span class="section-num">// 01</span>
+    <h2 class="section-title">Taidot</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-tag">Frontend</div>
+      <div class="skill-name">Käyttöliittymät</div>
+      <div class="skill-items">
+        <span class="proj-tag hot">JavaScript</span>
+        <span class="proj-tag hot">HTML/CSS</span>
+        <span class="proj-tag hot">REST API</span>
+        <span class="proj-tag hot">AJAX</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-tag">Backend</div>
+      <div class="skill-name">Palvelinohjelmointi</div>
+      <div class="skill-items">
+        <span class="proj-tag hot">Python</span>
+        <span class="proj-tag hot">Node.js</span>
+        <span class="proj-tag hot">PostgreSQL</span>
+        <span class="proj-tag hot">REST API</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-tag">DevOps</div>
+      <div class="skill-name">Ympäristöt &amp; työkalut</div>
+      <div class="skill-items">
+        <span class="proj-tag hot">Git</span>
+        <span class="proj-tag hot">Docker</span>
+        <span class="proj-tag hot">Linux</span>
+        <span class="proj-tag hot">Netlify</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-tag">Muut</div>
+      <div class="skill-name">Erikoisosaaminen</div>
+      <div class="skill-items">
+        <span class="proj-tag hot">Algoritmit</span>
+        <span class="proj-tag hot">UI/UX</span>
+        <span class="proj-tag hot">Agile</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- PROJEKTIT -->
+<section id="projektit">
+  <div class="section-header">
+    <span class="section-num">// 02</span>
+    <h2 class="section-title">Projektit</h2>
+  </div>
+  <div class="projects-list">
+
+    <a class="project-item" href="https://martinsmerling.github.io/City-Dashboard-Turku/" target="_blank" rel="noopener">
+      <div>
+        <div class="proj-num">001</div>
+        <div class="proj-title">City Dashboard — Turku</div>
+        <div class="proj-desc">Web-sovellus, joka kokoaa Turun kaupunkidatan yhteen näkymään. Näyttää säätiedot (FMI WFS), ilmanlaadun (PM2.5, PM10, NO₂, O₃) ja kahvilat kartalla Leaflet + OpenStreetMap -yhdistelmällä.</div>
+        <div class="proj-tags">
+          <span class="proj-tag hot">JavaScript</span>
+          <span class="proj-tag hot">Leaflet</span>
+          <span class="proj-tag hot">FMI API</span>
+          <span class="proj-tag hot">Open-Meteo</span>
+          <span class="proj-tag hot">Overpass API</span>
+          <span class="proj-tag hot">ES Modules</span>
+        </div>
+      </div>
+      <div class="proj-right">
+        <div class="proj-status"><span class="status-dot"></span>GitHub</div>
+        <div class="proj-arrow">→</div>
+      </div>
+    </a>
+
+    <a class="project-item" href="https://martinsmerling.github.io/Projekti2---Musiikin-info-applikaatio/" target="_blank" rel="noopener">
+      <div>
+        <div class="proj-num">002</div>
+        <div class="proj-title">Musiikin info-applikaatio</div>
+        <div class="proj-desc">AJAX-sovellus REST APIa hyödyntäen. Hakee Last.fm APIsta artistin albumit ja kappalelistan dynaamisesti. Grid-layout albumeille, hakukenttä kaikille artisteille — ilman ulkopuolisia JS-kirjastoja.</div>
+        <div class="proj-tags">
+          <span class="proj-tag hot">JavaScript</span>
+          <span class="proj-tag hot">Last.fm API</span>
+          <span class="proj-tag hot">AJAX</span>
+          <span class="proj-tag hot">CSS Grid</span>
+          <span class="proj-tag hot">Netlify</span>
+        </div>
+      </div>
+      <div class="proj-right">
+        <div class="proj-status"><span class="status-dot"></span>GitHub</div>
+        <div class="proj-arrow">→</div>
+      </div>
+    </a>
+
+    <a class="project-item" href="https://martinsmerling.github.io/Projekti3/" target="_blank" rel="noopener">
+      <div>
+        <div class="proj-num">003</div>
+        <div class="proj-title">Treenipäiväkirja</div>
+        <div class="proj-desc">Selainpohjainen treenipäiväkirja. Käyttäjä täyttää lomakkeeseen 
+          päivämäärän, treenityypin, keston, rasittavuuden ja mahdolliset muistiinpanot. 
+          Kun lomake lähetetään, treeni ilmestyy listaan taulukon alapuolelle.</div>
+        <div class="proj-tags">
+          <span class="proj-tag hot">JavaScript</span>
+          <span class="proj-tag hot">HTML/CSS</span>
+          <span class="proj-tag hot">LocalStorage</span>
+        </div>
+      </div>
+      <div class="proj-right">
+        <div class="proj-status"><span class="status-dot"></span>GitHub</div>
+        <div class="proj-arrow">→</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- TIETOA -->
+<section id="tietoa">
+  <div class="section-header">
+    <span class="section-num">// 03</span>
+    <h2 class="section-title">Tietoa minusta</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>Olen <strong>toisen vuoden IT-opiskelija</strong> Laurea ammattikorkeakoulussa Tikkurilassa. Olen <strong>motivoitunut ja oppimishaluinen</strong> korkeakouluopiskelija, jota kiinnostavat <strong>erityisesti IT, digitaaliset palvelut ja erilaisten järjestelmien kehittäminen sekä hyödyntäminen</strong> käytännön työssä.</p>
+      <p>Työskentelen mielelläni <strong>sekä itsenäisesti että osana tiimiä,</strong> ja pidän tärkeänä <strong>selkeää viestintää, huolellisuutta ja vastuullista</strong> työotetta.</p>
+      <p>Etsin parhaillaan <strong>harjoittelupaikkaa tai osa-aikatyötä</strong> ohjelmistokehityksen parissa. <strong>Voin aloittaa vaikka heti.</strong></p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-box">
+        <div class="stat-num">2</div>
+        <div class="stat-label">Vuotta opiskeltu</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">25</div>
+        <div class="stat-label">Repositoriota GitHubissa</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Julkista projektiа</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">101%</div>
+        <div class="stat-label">Motivaatio</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKTI -->
+<div class="contact-section" id="kontakti">
+  <section>
+    <div class="contact-inner">
+      <div class="contact-title">OTA<br>YHTEYTTÄ</div>
+      <div class="contact-links">
+
+        <a class="contact-link" href="mailto:martin.smerling@gmail.com">
+          <i class="ti ti-mail" aria-hidden="true"></i>
+          <div class="contact-link-label">
+            <span class="contact-link-type">Sähköposti</span>
+            <span class="contact-link-value">martin.smerling@gmail.com</span>
+          </div>
+        </a>
+
+        <a class="contact-link" href="https://github.com/MartinSmerling" target="_blank" rel="noopener">
+          <i class="ti ti-brand-github" aria-hidden="true"></i>
+          <div class="contact-link-label">
+            <span class="contact-link-type">GitHub · 25 repositoriota</span>
+            <span class="contact-link-value">github.com/MartinSmerling</span>
+          </div>
+        </a>
+
+        <a class="contact-link" href="https://linkedin.com/in/martin-smerling" target="_blank" rel="noopener">
+          <i class="ti ti-brand-linkedin" aria-hidden="true"></i>
+          <div class="contact-link-label">
+            <span class="contact-link-type">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/martin-smerling</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <span class="footer-copy">© 2025 Martin Smerling — IT-opiskelija, Vantaa</span>
+  <span class="footer-copy" style="color: #2a2a2a;">Built with ♥ &amp; koodi</span>
+</footer>
+
+</body>
+</html>
